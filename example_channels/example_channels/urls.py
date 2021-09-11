@@ -15,12 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from example import views
+from example.views import index, game, new_chat, home, register, test
+from django.contrib.auth import views as auth_views
 
-from example.views import index, game
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index),
+    path('game', index),
+    path('test/<message>', test, name='test'),
     path('play/<room_code>', game),
+    path('chat/', views.ChatView.as_view(), name='chat'),
+    path('', new_chat, name='new_chat'),
+    path(r'home/', home),
+    path(r'register/', register),
+    path(r'login/', auth_views.LoginView.as_view(),  {'template_name': 'registration/login.html'}, name='login'),
+    path(r'logout/', auth_views.LogoutView.as_view(), {'template_name': 'registration/logout.html'}),
 
 ]
