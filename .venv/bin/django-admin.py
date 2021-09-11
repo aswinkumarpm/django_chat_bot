@@ -1,4 +1,4 @@
-#!/home/aswin/chatbot/django_chat_bot/.venv/bin/python
+#!/home/aswin/chatbot/django_chat_bot/.venv/bin/python3
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 

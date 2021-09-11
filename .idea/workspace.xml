@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b01e9ec4-9e3e-4655-9b0f-66ba0d3b2ba1" name="Default Changelist" comment="" />
+    <list default="true" id="e99b5bd2-8c0c-48d4-9352-d69e08c4e3cb" name="Default Changelist" comment="updated .gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/django_chat_bot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/daphne" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/daphne" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/django-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/bin/django-admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/Django-3.2.7.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/Django-3.2.7.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/daphne-3.0.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/daphne-3.0.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/idna-3.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/idna-3.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/msgpack-1.0.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/msgpack-1.0.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/redis-3.5.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/redis-3.5.3.dist-info/RECORD" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="Python Script" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1xwo1p0LVImtPwjScPRUYxMvTvL" />
+  <component name="ProjectId" id="1y0FuEY68ZaZoFfsAYoBPoXZnAy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django-bot-server-tutorial" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/example_channels/example/static/js" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -49,26 +52,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b01e9ec4-9e3e-4655-9b0f-66ba0d3b2ba1" name="Default Changelist" comment="" />
-      <created>1631275298517</created>
+      <changelist id="e99b5bd2-8c0c-48d4-9352-d69e08c4e3cb" name="Default Changelist" comment="" />
+      <created>1631380819439</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1631275298517</updated>
+      <updated>1631380819439</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated .gitignore">
+      <created>1631380866317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631380866317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1631275440430">
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1631382758525">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1631275440430" />
-    <state x="205" y="31" key="SettingsEditor" timestamp="1631277161686">
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1631382758525" />
+    <state x="187" y="86" width="1039" height="622" key="DiffContextDialog" timestamp="1631380940688">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1631277161686" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1631279179174">
+    <state x="187" y="86" width="1039" height="622" key="DiffContextDialog/67.27.1299.741@67.27.1299.741" timestamp="1631380940688" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1631382166712">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1631279179174" />
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1631382166712" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1631380870255">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1631380870255" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1631382746324">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1631382746324" />
   </component>
 </project>
