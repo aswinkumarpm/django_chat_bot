@@ -3,10 +3,34 @@
 <head>
     <meta charset="utf-8"/>
     <title>{% block title %}Django Chatbot{% endblock %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 </head>
 <body>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Django ChatBot</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">welcome {{ user.username }}</a></li>
+            {% if user.is_authenticated %}
+        <li><a href="/logout">Logout</a></li>
+            {% else %}
+      <li><a href="/login">Login</a></li>
+      <li><a href="/register">Register</a></li>
+            {% endif %}
+
+    </ul>
+  </div>
+</nav>
+
     {% if user.is_authenticated %}
     <p>hello</p>
     <p>welcome {{ user.username }}</p>
@@ -25,9 +49,26 @@
 <input id="chat-message-input" type="text" size="100" placeholder="Type `help` for the commands list."/><br/>
 <input id="chat-message-submit" type="button" value="Send"/>
 
+<table class="table table-bordered">
+   <tr>
+     <th>User</th>
+     <th>count</th>
+   </tr>
+       {% for q in test %}
+
+   <tr>
+       <td>{{q.user__username}}</td>
+       <td>{{q.count}}</td>
+   </tr>
+
+       {% endfor %}
+
+</table>
 
 
-<table>
+
+
+<table class="table">
    <tr>
      <th>User</th>
      <th>calls</th>
@@ -38,7 +79,7 @@
    <tr>
        <td>{{q.user}}</td>
        <td>{{q.message}}</td>
-       <td>{{q.created_on}}</td>
+       <td>{{q.created_on|date:"M d, Y" }}</td>
    </tr>
 
        {% endfor %}

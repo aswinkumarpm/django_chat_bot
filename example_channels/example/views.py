@@ -1,3 +1,4 @@
+from django.db.models import F, Sum
 from django.http import Http404
 from django.shortcuts import render, redirect
 import random
@@ -94,15 +95,28 @@ def test(request, message):
 
 def new_chat(request):
     query = Call.objects.all()
+    from django.db.models import Count
+
+
+    categories = Call.objects.all().order_by('message').values('user__username', 'message').annotate(count=Count('user'))
+    print(categories)
+
+    res = User.objects.all()
+    print(res)
+
+    test = Call.objects.values('user__username').order_by('user__username').annotate(count=Count('message'))
+    print(test)
+
+
 
     context = {
         "query": query,
+        "categories": categories,
+        "test": test,
     }
 
-    from django.db.models import Count
 
-    categories = Call.objects.all().order_by('message').values('message', 'user').annotate(count=Count('message'))
-    print(categories)
+
 
     return render(request, 'chatbot_tutorial/new_chat_bot.html', context)
 
